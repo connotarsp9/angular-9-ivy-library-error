@@ -9,13 +9,15 @@
     "lib": [
       "dom",
       "es2018"
-    ]
+    ],
+    "rootDir": "./src",
   },
   "angularCompilerOptions": {
     "skipTemplateCodegen": true,
     "strictMetadataEmit": true,
     "enableResourceInlining": true
   },
+  "files": ["./src/index.ts"],
   "exclude": [
     "src/test.ts",
     "**/*.spec.ts"
